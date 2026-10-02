@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1, h2, h3, .pressstart {
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+body {
+    background-color:antiquewhite;
+}
