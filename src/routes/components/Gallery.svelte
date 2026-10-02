@@ -26,7 +26,7 @@
     <ul class="columns-3xs">
         {#each images as image(image.title)}
             <li class="my-4">
-                <img src={image.src} alt={image.alt} />
+                <img src={image.src} alt={image.alt} loading="lazy" />
             </li>
         {/each}
     </ul>
